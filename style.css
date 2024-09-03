@@ -109,7 +109,7 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: rgba(51, 102, 153, 0.7); /* Cor de fundo do rodapé */
+    background-color: rgba(51, 102, 153); /* Cor de fundo do rodapé */
     color: #FFFFFF; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
@@ -117,6 +117,8 @@ footer {
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media (max-width: 768px) {
