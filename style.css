@@ -17,6 +17,10 @@ body {
     background-position: center;
 }
 
+span{
+    color:#AEE074;
+}
+
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
@@ -26,6 +30,7 @@ h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3),
                 4px 4px 4px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 /* Estiliza as seções da página */
@@ -46,6 +51,7 @@ section input {
     color: #45474B; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
+    border: 2px solid #30475E;
 }
 
 /* Estiliza os botões dentro das seções */
@@ -82,6 +88,7 @@ section button:hover {
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    border: 2px solid #30475E;
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
